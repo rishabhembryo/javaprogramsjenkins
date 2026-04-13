@@ -9,6 +9,8 @@ public class Main{
         System.out.println(new Date());
         System.out.println("End of java program");
         System.out.println("Added one more sout");
+        Student student = new Student();
+        student.say();
 
     }
 }

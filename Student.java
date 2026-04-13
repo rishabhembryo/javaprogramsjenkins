@@ -7,7 +7,7 @@ public class Student {
         System.out.println("hello i am Student1");
     }
     public void run(){
-        System.out.println("Student1 is running");
+        System.out.println("Student is running");
     }
 
 }

@@ -12,6 +12,9 @@ public class Main{
         Student student = new Student();
         student.say();
         student.run();
+        Student student2 = new Student();
+        student2.run();
+        
 
     }
 }

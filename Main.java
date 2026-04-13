@@ -14,7 +14,8 @@ public class Main{
         student.run();
         Student student2 = new Student();
         student2.run();
-        
+        Teacher teacher = new Teacher();
+        teacher.teach();
 
     }
 }

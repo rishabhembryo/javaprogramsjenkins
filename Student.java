@@ -6,4 +6,8 @@ public class Student {
     public void say(){
         System.out.println("hello i am Student1");
     }
+    public void run(){
+        System.out.println("Student1 is running");
+    }
+
 }

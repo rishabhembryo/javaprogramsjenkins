@@ -11,6 +11,7 @@ public class Main{
         System.out.println("Added one more sout");
         Student student = new Student();
         student.say();
+        student.run();
 
     }
 }

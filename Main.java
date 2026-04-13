@@ -16,6 +16,7 @@ public class Main{
         student2.run();
         Teacher teacher = new Teacher();
         teacher.teach();
+        System.out.println("lunch is served");
 
     }
 }

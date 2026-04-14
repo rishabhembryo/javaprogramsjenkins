@@ -1,9 +1,18 @@
 pipeline{
     agent any
+    tools{
+        jdk 'jdk21'
+        gradle 'gradle8.7'
+    }
+    environment{
+        
+        VERSION_NAME="1.0"
+    }
     stages{
         stage('compile'){
             steps{
                sh 'javac Main.java'
+               sh 'echo "Version name is ${VERSION_NAME}"'
             }
         }
         stage('run'){
